@@ -502,9 +502,9 @@ public class Menu extends javax.swing.JFrame {
                 new Menu().setVisible(true);
                 ConfigurationBuilder cb = new ConfigurationBuilder();
                 cb.setDebugEnabled(true)
-                    .setOAuthAppId("1909772702609906")
-                    .setOAuthAppSecret("b1f83bfe3facd505ac0b62a8a93207fb")
-                    .setOAuthAccessToken("EAACEdEose0cBAJk9R1qZBPcxErKiHK4RrPpNJeVfXRME2rIwxWx2L4FZCxFh334WvakLQs5nahH6zlAfBFKZBU3ZAto6mb00ZA6bZC9ht7hSJsD4TjAX5FIZBwTMfRUziaDBR7KJ3OLj4VZBBI7ZCZBKKVrgtov2uEBfwLLwMZCJUaag2pElMu7yNdXXfjsN7i8vMkZD")
+                    .setOAuthAppId("*")
+                    .setOAuthAppSecret("*")
+                    .setOAuthAccessToken("*")
                     .setOAuthPermissions("publish_stream");
                 ff = new FacebookFactory(cb.build());
                 facebook = ff.getInstance();      
